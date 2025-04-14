@@ -14,6 +14,8 @@ classifiers = [
 ]
 keywords = ["networking", "ip", "subnet", "cli"]
 requires-python = ">=3.9"
+dependencies = ["colorama==0.4.6"]
+optional-dependencies.dev = ["pytest"]
 
 [project.urls]
 Homepage = "https://github.com/nicanorflavier/ipnet"
